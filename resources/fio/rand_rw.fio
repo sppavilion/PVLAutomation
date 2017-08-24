@@ -1,0 +1,10 @@
+[global]
+ioengine=libaio
+invalidate=1
+verify_dump=1
+error_dump=1
+direct=1
+atomic=1
+bssplit=4k/20:16k/20:32k/20:64k/20:128k/20
+rw=randrw
+group_reporting

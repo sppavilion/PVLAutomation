@@ -1,0 +1,10 @@
+[global]
+ioengine=libaio
+invalidate=1
+verify_dump=1
+error_dump=1
+bsrange=4k-1m
+bs_unaligned
+rw=randwrite
+verify=crc32
+group_reporting

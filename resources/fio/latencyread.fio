@@ -1,0 +1,11 @@
+iodepth=1
+ioengine=libaio
+invalidate=1
+direct=1
+time_based
+rw=randread
+bs=4K
+numjobs=1
+runtime=120
+number_ios=25000
+output-format=normal

@@ -1,0 +1,16 @@
+iodepth=64
+fill_device=1
+verify=pattern
+do_verify=1
+ioengine=libaio
+invalidate=1
+direct=1
+rw=write
+bs=16K
+verify_pattern=0x63636363
+verify_dump=1
+verify_fatal=1
+error_dump=1
+output-format=normal
+
+

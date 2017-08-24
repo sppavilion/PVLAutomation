@@ -1,0 +1,16 @@
+{
+    "ip" : "*mgmt_ip*",
+    "api_url": "https://*mgmt_ip*/api/v1.0/storage/volumes/create",
+    "method": "POST",
+    "header": { "Content-Type": "application/json;charset=UTF-8" },
+    "req_data": {
+        "size": *size*,
+        "strpsize": *strpsize*,
+        "name": "*name*",
+        "media_group_id": "*media_grpid*",
+        "reservation": *reservation*,
+        "flavor": "*flavor*",
+        "rw": 85,
+        "wl": "Analytics"
+    }
+}

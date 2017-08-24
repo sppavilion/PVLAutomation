@@ -1,0 +1,14 @@
+iodepth=32
+verify=pattern
+do_verify=1
+ioengine=libaio
+invalidate=1
+direct=1
+rw=read
+bs=128K
+numjobs=1
+output-format=normal
+fill_device=1
+verify_dump=1
+verify_fatal=1
+error_dump=1

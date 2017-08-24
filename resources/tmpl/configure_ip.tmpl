@@ -1,0 +1,17 @@
+{
+    "ip" : "*mgmt_ip*",
+    "api_url": "https://*mgmt_ip*/api/v1.0/chassis/controllers/*controller_id*/networks/*controller_dataport_iface*/configuredataport",
+    "method": "POST",
+    "header": { "Content-Type": "application/json;charset=UTF-8" },
+    "req_data":{
+	"id": "*id*",
+	"name": "*name*",
+	"controller_dataport_ip_type": "*controller_dataport_ip_type*",
+	"controller_id": "*controller_id*",
+	"controller_dataport_iface": "*controller_dataport_iface*",
+	"controller_dataport_ip": "*controller_dataport_ip*",
+	"controller_dataport_netmask": "*controller_dataport_netmask*",
+	"action": *action*
+}
+}
+
